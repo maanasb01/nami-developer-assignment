@@ -43,6 +43,7 @@ export default function MainPage() {
             Tasks of the Day
           </div>
 
+          {/* Filters are applied cumulatively, similar to using OR logical conditions stacked on top of each other. */}
           <Filter
             selectedFilters={selectedFilters}
             setSelectedFilters={setSelectedFilters}
