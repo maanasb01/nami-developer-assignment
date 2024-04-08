@@ -1,10 +1,12 @@
 import './App.css'
+import MainPage from './Pages/MainPage'
+
 
 function App() {
 
   return (
     <>
-      <div>Nami</div>
+      <MainPage />
     </>
   )
 }

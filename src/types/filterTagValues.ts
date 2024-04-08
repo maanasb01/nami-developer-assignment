@@ -1,0 +1,1 @@
+export type FilterValue = 'not-accepted' | 'ongoing' | 'delayed' | 'ontime' | 'completed' | 'scheduled';
