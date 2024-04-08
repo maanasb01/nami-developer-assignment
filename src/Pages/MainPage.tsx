@@ -14,7 +14,7 @@ import { RotatingLines } from "react-loader-spinner";
 export default function MainPage() {
   const [selectedFilters, setSelectedFilters] = useState<FilterValue[]>([]);
 
-  const [data, setData] = useState<Task[] | null>(null); // Assuming the type of dummyData is DummyData[]
+  const [data, setData] = useState<Task[] | null>(null);
 
   useEffect(() => {
     const dummyFetchData = () => {
@@ -50,7 +50,8 @@ export default function MainPage() {
 
           {/* Render filtered Tasks */}
           {/* filterTasks: Function to filter tasks based on selected filters */}
-          <div className=" flex lg:flex-wrap lg:flex-row flex-col items-center gap-2 lg:gap-4 h-full overflow-auto pb-20 lg:pb-36">
+          <div className= {`flex lg:flex-wrap lg:flex-row flex-col items-center  ${data && dummyTasks
+                .filter((task) => filterTasks(task, selectedFilters)).length<4?"lg:items-start":"lg:items-center"} gap-2 lg:gap-4  h-full overflow-auto pb-20 lg:pb-36`}>
             {data ? (
               dummyTasks
                 .filter((task) => filterTasks(task, selectedFilters))

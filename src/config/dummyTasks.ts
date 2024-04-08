@@ -1,21 +1,7 @@
 import { Task } from "../types/taskTypes";
 
 export const dummyTasks: Task[] = [
-  {
-    id: "123",
-    title: "Cleaning",
-    from: "Kitchen",
-    to: "Dining Room",
-    assignee:"Rajesh",
-    taskType: "internal",
-    status: "completed",
-    isRecurring: true,
-    scheduledDate: new Date(),
-    acceptanceStatus: "accepted",
-    completionStatus: "onTime",
-    hasComplaint: false,
-    rating: 5,
-  },
+
   {
     id: "128",
     title: "Cleaning",
@@ -31,21 +17,7 @@ export const dummyTasks: Task[] = [
     hasComplaint: false,
     rating: 5,
   },
-  {
-    id: "122376",
-    title: "Cleaning",
-    from: "Room 12",
-    to: "Reception",
-    assignee:"James",
-    taskType: "internal",
-    status: "ongoing",
-    isRecurring: true,
-    scheduledDate: new Date(Date.now() + 20 * 360000),
-    acceptanceStatus: "notAccepted",
-    completionStatus: "onTime",
-    hasComplaint: false,
-    rating: 5,
-  },
+ 
   {
     id: "456",
     title: "Stocking",
@@ -105,6 +77,21 @@ export const dummyTasks: Task[] = [
     ],
   },
   {
+    id: "122376",
+    title: "Cleaning",
+    from: "Room 12",
+    to: "Reception",
+    assignee:"James",
+    taskType: "internal",
+    status: "ongoing",
+    isRecurring: true,
+    scheduledDate: new Date(Date.now() + 20 * 360000),
+    acceptanceStatus: "notAccepted",
+    completionStatus: "onTime",
+    hasComplaint: false,
+    rating: 5,
+  },
+  {
     id: "101112",
     title: "Maintenance",
     from: "Facilities",
@@ -117,6 +104,21 @@ export const dummyTasks: Task[] = [
     completionStatus: "delayed",
     hasComplaint: false,
     rating: 2,
+  },
+  {
+    id: "123",
+    title: "Cleaning",
+    from: "Kitchen",
+    to: "Dining Room",
+    assignee:"Rajesh",
+    taskType: "internal",
+    status: "completed",
+    isRecurring: true,
+    scheduledDate: new Date(),
+    acceptanceStatus: "accepted",
+    completionStatus: "onTime",
+    hasComplaint: false,
+    rating: 5,
   },
   {
     id: "131415",
@@ -151,6 +153,12 @@ export const dummyTasks: Task[] = [
     items: [
       { itemName: "Towels", quantities: 2, description: "Extra soft" },
       { itemName: "Toiletries", quantities: 1 },
+      { itemName: "Brushes", quantities: 1 },
+      { itemName: "Slippers", quantities: 2 },
+      { itemName: "Mattress", quantities: 1 },
+      { itemName: "Refreshments", quantities: 5, description:"Any Kind of snack" },
+      { itemName: "tea", quantities: 1 },
+      { itemName: "coffee", quantities: 2 },
     ],
   },
   {

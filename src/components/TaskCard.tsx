@@ -190,7 +190,7 @@ export default function TaskCard({
   }
 
   return (
-    <div className="flex flex-col space-y-3 p-2 rounded-xl border border-[#B8B8B8] w-80 h-fit max-h-80 ">
+    <div className="flex flex-col space-y-3 p-2 rounded-xl border border-[#B8B8B8] w-80 h-fit max-h-80  ">
       <div className="flex items-center gap-x-1 ">
         <span>
           <AssigneeTag name={assignee}/>
