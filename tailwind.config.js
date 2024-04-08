@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        encodeSans:["Encode Sans Expanded","ui-sans-serif", "system-ui", "-apple-system"],
+        montserrat:["Montserrat","ui-sans-serif", "system-ui", "-apple-system"]
+      }
+    },
   },
   plugins: [],
 }

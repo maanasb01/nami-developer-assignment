@@ -1,4 +1,4 @@
-import { Dispatch, SetStateAction, useState } from "react";
+import { Dispatch, SetStateAction} from "react";
 import { filterNamesMap } from "../config/filterNamesMap";
 import { FilterValue } from "../types/filterTagValues";
 import { FilterTag } from "./Tag";

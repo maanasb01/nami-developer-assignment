@@ -42,7 +42,7 @@ function SideNavOption({ option }: { option: NavOption }) {
 
 export default function SideNav() {
   return (
-    <div className="hidden lg:flex justify-center w-1/6 ">
+    <div className="hidden lg:flex justify-center w-1/6 text-sm ">
       <ul className="flex flex-col space-y-3 w-full px-8 ">
         {navOptions.map((option) => (
           <SideNavOption key={option.title} option={option} />

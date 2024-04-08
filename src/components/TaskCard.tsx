@@ -224,7 +224,7 @@ export default function TaskCard({
         </span>
       </div>
 
-      <div className="flex text-[10px] lg:text-xs font-medium text-[#767676]">
+      <div className="flex font-montserrat text-[10px] lg:text-xs font-medium text-[#767676]">
         <span className="flex items- space-x-2 ">
           <span>
             <img src={dueDate} alt="dueDate" />

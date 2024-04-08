@@ -31,7 +31,7 @@ export default function MainPage() {
   }, [data]);
 
   return (
-    <div className="flex flex-col h-screen overflow-hidden">
+    <div className="font-encodeSans flex flex-col h-screen overflow-hidden">
       <TopNav />
       <MobileHeader />
       <div className="flex  lg:mt-5 space-x-1 h-full  ">

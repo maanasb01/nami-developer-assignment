@@ -21,7 +21,7 @@ export function TextTag({
   return (
     <div
       style={{ backgroundColor: bg, color: textCol }}
-      className={`  w-fit rounded-3xl text-[10px] leading-3 lg:text-xs p-1 lg:px-2 lg:py-1`}
+      className={`  w-fit font-montserrat rounded-3xl text-[10px] leading-3 lg:text-xs p-1 lg:px-2 lg:py-1`}
     >
       {text}
     </div>
